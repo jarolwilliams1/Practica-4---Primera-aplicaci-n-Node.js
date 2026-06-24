@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(34, 63, 150);
+margin: 0;
+}
+
+.tittle{
+       text-align: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+   
+}
+.btn-home{
+
+
+    color: rgb(255, 255, 255) ;
+    background-color: transparent;
+    border: 2px rgb(255, 255, 255)  solid ;
+    border-radius: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+        margin-top: -15px;
+}
+
+.btn-home:hover{
+        transition: 0.5s;
+   color: rgb(34, 63, 150) ;
+            
+            background-color: whitesmoke;
+    
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.sec{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    border: 1.5px blanchedalmond solid;
+    border-radius: 30px ;
+    width: 900px;
+    height: 422px;
+    background-color: transparent ;
+}
+
+
+
+#pname {
+    margin-top: -10px;
+  height: 40px;
+  width: 400px;
+  border: 2px solid  rgb(51, 152, 240);
+  background-color: transparent;
+}
+
+#pemail {
+  height: 40px;
+  width: 400px;
+  border: 2px solid rgb(51, 152, 240);
+    background-color: transparent;
+
+}
+
+#pasunto {
+  height: 40px;
+  width: 400px;
+  border: 2px solid rgb(51, 152, 240) ;
+    background-color: transparent;
+
+}
+
+#mesagge {
+  height: 150px;
+  width: 400px;
+  border: 2px solid  rgb(51, 152, 240);
+  background-color: transparent;
+  
+
+}
+
+#enviar {
+  background-color: transparent;
+  color:  rgb(51, 152, 240);
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid  rgb(51, 152, 240);
+  cursor: pointer;
+  width: 100px;
+  display: flex;
+justify-content: flex-end;
+}
+#enviar:hover{
+       transition: 0.5s;
+   color: rgb(34, 63, 150) ;
+            
+            background-color: whitesmoke;
+}
+input, textarea{
+    margin-top: 15px;
+    color: rgb(51, 152, 240);
+    border-radius: 15px;
+    
+    
+}
+input::placeholder{
+  color: rgb(51, 152, 240);         
+  font-size: 14px;
+  padding-left: 10px;     
+}
+
+textarea::placeholder {
+     color: rgb(51, 152, 240);         
+  font-size: 14px; 
+    padding-left: 10px;    
+    padding-top: 10px; 
+
+}
+
+
+
+
+
+
+
+
+
+
+

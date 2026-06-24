@@ -1,0 +1,130 @@
+
+body{
+    
+
+background-color: rgb(34, 63, 150);
+margin: 0;
+}
+
+
+.HomeSite{
+
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    
+    
+}
+ul{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+      
+  list-style: none;   /* elimina los puntos */
+  padding: 0;         /* opcional: quita el espacio interno */
+  margin: 0;          /* opcional: quita el margen por defecto */
+
+
+      
+}
+
+
+
+a{
+        color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            text-decoration: none;
+            margin-right: 40px;
+
+}
+
+a:hover{
+    color: rgb(34, 63, 150) ;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+        padding-top: 5px;
+
+ border-radius: 100px;
+    transition: 0.5s;
+text-align: center;
+        background-color: whitesmoke;
+
+}
+
+
+.contenedor_de_imagen{
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 60px;
+
+
+
+}
+
+.caja{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+width: 250px;
+background-color: rgb(255, 255, 255);
+border-radius: 50%;
+box-shadow: 0px 0px 100px 30px  rgb(51, 152, 240);
+}
+
+
+.img{
+  
+height: 230px;
+width: 230px;
+border-radius: 50%;
+
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.caja_contenedor{
+    text-align: center;
+    
+}
+.soft{
+        text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: -20px;
+}
+
+.name{
+        text-align: center;
+    color:  rgb(51, 152, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.descripcion-contenedor{
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    width: 90%;
+    
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.descripcion{
+    padding: 15px;
+}

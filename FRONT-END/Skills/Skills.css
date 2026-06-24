@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(34, 63, 150);
+margin: 0;
+padding: 0;
+}
+
+.tittle{
+       text-align: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+   
+}
+.btn-home{
+
+
+    color: rgb(255, 255, 255) ;
+    background-color: transparent;
+    border: 2px rgb(255, 255, 255)  solid ;
+    border-radius: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+        margin-top: -15px;
+}
+
+.btn-home:hover{
+        transition: 0.5s;
+   color: rgb(34, 63, 150) ;
+            
+            background-color: whitesmoke;
+    
+}
+.tablas{
+    margin-top: 30px;
+}
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+th,td,tr{
+     color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+     width: 400px;
+}
+
+
+th:hover, td:hover, tr:hover{
+    transition: 0.5s;
+    background-color: rgb(51, 152, 240);
+}
+
