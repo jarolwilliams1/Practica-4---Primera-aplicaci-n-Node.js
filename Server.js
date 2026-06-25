@@ -2,15 +2,15 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-// Servir archivos estáticos (Asegúrate de que la carpeta física se llame 'public' en minúsculas)
-app.use(express.static(path.join(__dirname, 'public')));
+// Servir archivos estáticos desde la carpeta Public
+app.use(express.static(path.join(__dirname, 'Public')));
 
-// Importar rutas (Corregido a minúsculas y nombres de archivos reales)
+// Importar rutas
 const homeRoutes = require('./Routers/home.js');
-const valoresRoutes = require('.Routers/valores.js');
+const valoresRoutes = require('./Routers/valores.js');
 const skillsRoutes = require('./Routers/skills.js');
-const proyectosRoutes = require('./Routers/proyects.js'); // Apunta a proyects.js
-const contactoRoutes = require('./Routers/contact.js');   // Apunta a contact.js
+const proyectosRoutes = require('./Routers/proyects.js');
+const contactoRoutes = require('./Routers/contact.js');
 
 // Usar rutas
 app.use('/', homeRoutes);
